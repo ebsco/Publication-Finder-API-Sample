@@ -3,5 +3,5 @@ Basic PHP code which uses the Publication Finder API to search for publications 
 
 This application is intended for demonstration purposes only.
 
-Setup Instructions:
+Setup instructions:
 http://edswiki.ebscohost.com/Publication_Finder_API_Sample_Application
