@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <Version>PUBLICATION FINDER API PHP Demo v1.1</Version>
+    <EndPoints>
+        <EndPoint>http://eds-api.ebscohost.com/edsapi/rest</EndPoint>
+	<EndPointPublication>http://eds-api.ebscohost.com/edsapi/publication</EndPointPublication>
+        <AuthenticationEndPoint>https://eds-api.ebscohost.com/Authservice/rest</AuthenticationEndPoint>                           
+    </EndPoints>
+    <AbstractLength>300</AbstractLength>
+    <ClientCredentials>
+        <User>
+            <UserId>insert client side profile</UserId>
+            <Password>insert client side profile</Password>        
+        </User>
+    </ClientCredentials>
+    
+    <EDSCredentials>     
+        <User>
+            <ClientUser>guest</ClientUser> 
+            <EDSUserID></EDSUserID>
+            <EDSPassword></EDSPassword>
+            <EDSProfile></EDSProfile>           
+        </User>     
+    </EDSCredentials>
+</Config>

@@ -1,0 +1,353 @@
+p, ul, dl, form, input, textarea, select, label {
+    margin-bottom: 0.2em;
+}
+.navmenu dt {
+    background-color: #EEEEEE;
+    font-weight: bold;
+    margin-top: 0.75em;
+    padding: 0.2em 0.4em;
+}
+.navmenu dd {
+    border-bottom: 1px solid #E3E3E3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.1em 0 0.1em 0.4em;
+}
+dl dt {
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+	color: black;
+}
+a:visited{
+    text-decoration: none;
+     color: black;
+}
+.xml{
+    background-color: #FFFFFF;
+    border: 1px solid Black;
+    font-family: Verdana;
+    padding: 10px;
+    position: relative;
+    z-index: 5;
+}
+p.submit {
+    padding: 10px 0;
+}
+h1 {
+    font-size: 2.3em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+h1 {    
+    line-height: 1;  
+}
+h4 {
+    border-bottom: 2px solid #DDDDDD;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    margin-top: 5%;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.25;
+    margin-bottom: 1.25em;
+}
+
+strong {
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+    font-weight: normal;
+}
+/*, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section */
+body{
+    border: 0 none;
+    font-family: inherit;
+    font-size: 90%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: Arial;
+	overflow: scroll;
+}
+.container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    width: 70%;
+	min-width: 350px;
+}
+.header {
+    border: 1px solid #cccccc;
+    min-height: 65px;
+    padding: 0.8em;
+    font-size: 80%;
+}
+.letter-container{
+	background-color: #FFFFFF;
+	position: relative;
+	margin: 10px auto 30px auto;
+	clear: both;
+	border: 2px solid #DDDDDD;
+	overflow: hidden;
+	padding:2% 1% 2% 1%;
+}
+.letter-container ul{
+	padding: 0px;
+	list-style: none;
+	margin: 0px auto;
+	width: 100%;
+}
+.letter-container2{
+    width: 98%;
+    overflow: auto;
+}
+#letter-submenu{
+    padding-top: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #DDDDDD;
+}
+.letter{
+	text-align: center;
+	color: black;
+	border: 2px solid #DDDDDD;
+	margin: 2px;
+	float: left;
+}
+.letter a{
+	display: block;
+	width: 1.8em;
+	padding: 5px 0px;
+}
+.letter:hover{
+	background-color: #EEEEEE;
+}
+.subletter{
+    text-align: center;
+	color: black;
+    margin: 2px;
+	float: left;
+}
+.subletter a{
+	display: block;
+	width: 1.8em;
+	padding: 5px 0px;
+}
+.subletter:hover{
+	background-color: #EEEEEE;
+}
+.subtitle{
+	margin: 10px 0px;
+}
+.searchBox{
+	margin-left: 10px;
+	width: 20%;
+	min-width: 5em;
+}
+.messageST{
+	color: red;
+	font-size: 0.7em;
+	margin: 5px 0px 10px 10px;
+	display: none;
+}
+#searchTerm{
+	margin-bottom: 150px;
+}
+.newSearch{
+	display: inline;
+	float: right;
+	clear: right;
+}
+.newSearch:hover{
+	text-decoration:underline;
+}
+.content {
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #DDDDDD;
+    background-color: whitesmoke;
+}
+#toptabcontent {
+    border: 1px solid #CDCDCD;
+    clear: left;
+    padding: 1em 0.5em;
+    background: white;
+}
+.spinner {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    margin-left: -50px; 
+    text-align:center;
+    /*z-index:1234;*/
+    overflow: auto;
+    width: 100px; 
+    height: 102px; 
+}
+.error {
+    color: red;
+}
+.span-5 {
+    margin: auto;
+    width: 600px;
+}
+.info{
+	font-size: 0.8em;
+}
+.header, .searchbox, .breadcrumbs, .main, .footer {
+    padding: 0.8em;
+}
+
+.searchbox, .breadcrumbs, .main, .footer {
+    border-top: 1px solid #DDDDDD;
+}
+.table {
+    display: table;
+    margin: 0px auto;
+    background-color: white;
+}
+.table-row {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: top;
+	width: 850px;
+}
+.top-menu{
+    margin-bottom: 35px;
+
+}
+.menu {
+    margin-bottom: 10px;
+    float: right;
+}
+.results {
+    width: 100%;
+	margin: 0px auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.result:nth-child(2n+0) {
+    background-color: #eeeeee;
+}
+.record-id {
+    width: 30px;
+    text-align: center;
+}
+.title {
+    margin-bottom: 10px;
+}
+.link {
+    margin-bottom: 10px;
+}
+.link:hover {
+    text-decoration: underline;
+	color: blue;
+}
+.pagination {
+    color: black !important;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+.pagination a {  
+    display: inline-block;
+    line-height: 1em;
+    margin: 0 1px;
+    padding: 0 1px;
+    color: #327BBA !important;
+}
+.pagination p {   
+    margin-top: 8px;
+}
+.results-paging-next {
+    background: url("../web/arrow-sprites.png") no-repeat scroll right -500px transparent;
+    
+    text-indent: -999em;
+   
+}
+.results-paging-previous {
+    background: url("../web/arrow-sprites.png") no-repeat scroll left -550px transparent;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 0.5em;
+}
+
+.resultsIframe{
+    display: none;
+    width: 100%;
+    height: 1000px;
+  
+}
+.clickbar{
+    margin-top: 10px;
+  border: 1px solid #CDCDCD;
+}
+.record {
+    width: 880px;
+}
+
+.label {
+    width: 200px;
+}
+
+.data {
+    width: 800px;
+}
+
+.jacket {
+    float: left;
+}
+.summery{
+    width: 220px; 
+    height: 110px;
+}
+.statistics{
+    float: left;
+	clear: both;
+}
+
+.record .toolbar {
+    font-size: 1em;
+}
+
+.toolbar {
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 90%;
+    margin-bottom: 1em;
+    min-height: 2em;
+    padding-left: 1em;
+    text-align: right;
+}
+
+.span-15 {
+    width: 590px;
+     float: left;
+    margin-right: 10px;
+}
+.table-cell-box {
+    border: 1px solid #cccccc;
+    list-style-type: none;
+    padding: 5px;
+}
+.table-cell-box li {
+    padding: 5px 0;
+}
